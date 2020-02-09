@@ -21,6 +21,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 })
 
+
+
+
 var cookie = document.getElementById("cookie");
 
 function cookieClick() { 
@@ -73,5 +76,9 @@ function cookieClick() {
         let a = new Audio(url)
         a.play()
     }
+    
 }
+
+
+
 
