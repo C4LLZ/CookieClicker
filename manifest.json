@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Cookie Clicker",
+    "version": "1.0.0",
+    "description": "Cookie Clicker",
+    "icons": {"128": "icon.png"},
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "Cookie Clicker",
+        "default_popup": "popup.html"
+    },
+    "web_accessible_resources": [
+          "GOD.mp3"
+      ],
+    "content_scripts": [
+        {
+          "matches": ["https://*.twitch.tv/*"],
+            "js": ["main.js"],
+            "run_at": "document_end"
+        }
+    ]
+  }
