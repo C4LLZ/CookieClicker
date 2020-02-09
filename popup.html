@@ -3,10 +3,17 @@
         <script type="text/javascript" src="main.js"></script>
         <title>Shark Bait's Cookie Clicker Game!</title>
         <link rel = "stylesheet" href = "style.css"/>
+        <link rel = "stylesheet" href = "dark-mode.css"/>
     </head>
 
     <body>
-        <button id="dark-mode-toggle" class="dark-mode-toggle">Darkmode?</button>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+            <label class="custom-control-label" for="darkSwitch"></label>
+        <p id="black">Darkmode</p>
+        </div>
+          
+          <script src="dark-mode-switch.min.js"></script>
         <p id="HACKER"></p>
         <div id = "cookie" >
             <img  id="cookieimg" src="https://media.giphy.com/media/l0u0eiVkW4x0Y/200.gif" width="200px"/>
