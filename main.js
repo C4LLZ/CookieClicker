@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
     link.addEventListener('click', function() {
         cookieClick();
     });
+
+    
 })
 
 document.addEventListener('DOMContentLoaded', function() {
