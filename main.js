@@ -68,7 +68,7 @@ function cookieClick() {
         num += 100000;
         upgradeLevel.innerHTML = "GOD Gamer Level";
         document.body.style.backgroundColor = "red";
-        document.getElementById("cookieimg").src = "https://2.bp.blogspot.com/-SjtieX2mqPY/WTrbU0hapAI/AAAAAAAPq1k/tmcUUIJ_cXoeF-R-MJ_VJq5CQpaLsg3RwCLcB/s1600/AW444663_01.gif";
+        document.getElementById("cookieimg").src = "GOD.gif";
         hacker.innerHTML = "WHY ARE YOU HACKING????";
 
         
